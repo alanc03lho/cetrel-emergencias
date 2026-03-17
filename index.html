@@ -205,9 +205,9 @@
     ============================================ */
     .hero {
       position: relative;
-      min-height: 92vh;
+      min-height: auto;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       overflow: hidden;
       background: var(--green-900);
     }
@@ -231,7 +231,7 @@
     .hero__content {
       position: relative;
       z-index: 2;
-      padding: 120px 0 100px;
+      padding: 40px 0 100px;
       max-width: 720px;
     }
     .hero__badge {
@@ -427,7 +427,7 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 280px;
+      height: 380px;
       background: var(--green-900);
     }
     .solutions__header {
@@ -435,7 +435,7 @@
       margin-bottom: 60px;
       position: relative;
       z-index: 2;
-      padding-top: 40px;
+      padding-top: 80px;
     }
     .solutions__header .section-title { color: var(--white); }
     .solutions__header .section-label { color: var(--yellow-400); }
@@ -1093,7 +1093,7 @@
         box-shadow: 0 12px 40px rgba(0,0,0,.3);
       }
       .hero { min-height: 80vh; }
-      .hero__content { padding: 80px 0 100px; }
+      .hero__content { padding: 30px 0 80px; }
       .hero__stats { flex-direction: column; margin-top: -40px; }
       .hero__stat:first-child { border-radius: 12px 12px 0 0; }
       .hero__stat:last-child { border-radius: 0 0 12px 12px; }
